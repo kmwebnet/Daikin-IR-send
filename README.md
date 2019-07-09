@@ -1,6 +1,6 @@
 # Daikin-Air-conditioner-commander
 
-This emulates ARC478A18 IR remote transceiver comes with Daikin Air conditioner by ESP32-DevkitC.  
+This emulates ARC478A30 IR remote transceiver comes with Daikin Air conditioner by ESP32-DevkitC.  
 
 # Requirements
 
