@@ -9,22 +9,22 @@ This emulates ARC478A30 IR remote transceiver comes with Daikin Air conditioner 
 
 # Environment reference
   
-  Espressif ESP32-DevkitC
-  [IR-LED](http://akizukidenshi.com/catalog/g/gI-03261/)  
-  20 ohm resistor
-  1k ohm resistor x 2
+  Espressif ESP32-DevkitC  
+  [IR-LED](http://akizukidenshi.com/catalog/g/gI-03261/)    
+  20 ohm resistor  
+  1k ohm resistor x 2  
   NPN transisitor    
 
 # Usage
 
-  you need to change a serial port number which actually connected to ESP32 in platformio.ini.
-  Base pin for transistor should connect to GPIO 26(defined by daikindef.h)
+  you need to change a serial port number which actually connected to ESP32 in platformio.ini.   
+  Base pin for transistor should connect to GPIO 26(defined by daikindef.h)  
 
 # Run this project
 
-by default, this code emits power on, 24 celsius cool and fanmode Auto command signal as defined on main.c
-you can try different settings before executing sendframe function.
-
+by default, this code emits power on, 24 celsius cool and fanmode Auto command signal as defined on main.c    
+you can try different settings before executing sendframe function.   
+  
 # License
 
 This software is released under the MIT License, see LICENSE.
