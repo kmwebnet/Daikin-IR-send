@@ -6,8 +6,8 @@
 const int wakedatalength = 5;
 const int headerlength = 1;
 const int trailerlength = 1;
-const int frame1bytelength = 8;
-const int frame2bytelength = 19;      // Daikin format data length 8byte + 19byte
+const int frame1bytelength = 20;
+const int frame2bytelength = 19;
 const int endframelength = 1;
 
 
@@ -39,7 +39,7 @@ unsigned char daikin[]     = {
 //        32    33    34    35    36    37    38
 		};
 
-#define DAIKIN_FRAME1_LENGTH 20 //8
+#define DAIKIN_FRAME1_LENGTH 20 
 #define DAIKIN_FRAME1_OFFSET 0
 #define DAIKIN_FRAME2_LENGTH 19
 #define DAIKIN_FRAME2_OFFSET DAIKIN_FRAME1_LENGTH
