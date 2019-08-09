@@ -11,9 +11,8 @@ This emulates ARC478A30 IR remote transceiver comes with Daikin Air conditioner 
   
   Espressif ESP32-DevkitC  
   [IR-LED](http://akizukidenshi.com/catalog/g/gI-03261/)    
-  20 ohm resistor  
-  1k ohm resistor x 2  
-  NPN transisitor    
+  the rest of components needes as below:
+  https://user-images.githubusercontent.com/46954791/62774036-b72a0080-bade-11e9-92ec-cfe6f5bf2e5f.png
 
 # Usage
 
